@@ -1,0 +1,15 @@
+project/
+├── docs/
+│   ├── README.md
+│   └── development.md
+├── examples/
+│   └── demo.py
+├── src/
+│   ├── core/
+│   │   └── file_utils.py
+│   └── main.py
+├── tests/
+│   └── test_main.py
+├── README.md
+├── setup.py
+└── test.py 
