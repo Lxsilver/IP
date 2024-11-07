@@ -1,18 +1,36 @@
 # 开发文档
 
+## 环境要求
+- Python 3.11.6
+- pip (最新版本)
+- virtualenv 或 venv
+
+## 开发环境设置
+1. 创建虚拟环境
+   ```bash
+   python3 -m venv IP_venv
+   ```
+
+2. 激活虚拟环境
+   ```bash
+   # macOS/Linux
+   source IP_venv/bin/activate
+   # Windows
+   .\IP_venv\Scripts\activate
+   ```
+
+3. 安装开发依赖
+   ```bash
+   pip install -r requirements.txt
+   # 或
+   pip install -e ".[dev]"
+   ```
+
 ## 项目结构说明
 - `src/core/file_utils.py`: 提供文件操作相关的核心功能
 - `src/main.py`: 程序主入口
 - `tests/`: 包含所有测试用例
 - `examples/`: 包含示例代码
-
-## 开发环境设置
-1. 克隆项目
-2. 创建虚拟环境
-3. 安装开发依赖：
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## 开发指南
 
